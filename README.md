@@ -26,8 +26,7 @@ Here is some example code for using the package:
       })
       
       client.on("message", async message=>{
-      if(message.author.bot)return;
-      if(message.channel.type === "dm")return;
+      if(message.author.bot || message.channel.type == "dm")return;
       if(message.content == "tadwadawdaest"){
         const embed1 = new Discord.MessageEmbed()
         .setColor("YELLOW")
