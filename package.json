@@ -1,0 +1,24 @@
+{
+  "name": "discord-embeds-pages-buttons",
+  "version": "1.0.0",
+  "description": "Button pages for the discord-buttons package.",
+  "types": "./index.d.ts",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  },
+  "scripts": {
+    "test": "node ./exampleBot/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaZegame/discord-embeds-pages-buttons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaZegame/discord-embeds-pages-buttons/issues"
+  },
+  "homepage": "https://github.com/RaZegame/discord-embeds-pages-buttons#readme"
+}
